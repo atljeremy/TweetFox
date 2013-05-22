@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">TweetFox</string>
+    <string name="refresh">Refresh</string>
+    <string name="my_account">My Account</string>
+    <string name="new_tweet">Tweet</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="new_tweet_string">New Tweet</string>
+    <string name="enter_tweet_here">Enter tweet here</string>
+    <string name="enter_tweet_error">Please enter a tweet before saving</string>
+    <string name="tweet_publish_error">An error occurred publishing your tweet</string>
+    <string name="tweet_published">Tweet successfully published</string>
 </resources>

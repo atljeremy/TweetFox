@@ -1,7 +1,6 @@
 package com.jeremyfox.TweetFox.Interfaces;
 
 import twitter4j.Status;
-import twitter4j.auth.RequestToken;
 
 import java.util.List;
 

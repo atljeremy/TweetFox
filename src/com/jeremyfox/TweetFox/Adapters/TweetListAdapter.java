@@ -20,7 +20,7 @@ import java.util.List;
  */
 public class TweetListAdapter extends ArrayAdapter<Status> {
 
-    private List<Status> tweets;
+    public List<Status> tweets;
 
     public TweetListAdapter(Context context, int textViewResourceId, List<Status> tweets) {
         super(context, textViewResourceId, tweets);

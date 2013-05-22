@@ -12,6 +12,9 @@ import android.preference.PreferenceManager;
  */
 public class PrefsHelper {
 
+    public static final String LATEST_TWEET_KEY = "latestTweet";
+    public static final String USERNAME_KEY = "username";
+
     /**
      * Sets pref.
      *

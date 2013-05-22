@@ -1,16 +1,14 @@
 package com.jeremyfox.TweetFox.Managers;
 
 import android.content.Context;
+
 import android.os.AsyncTask;
 import android.util.Log;
 import com.jeremyfox.TweetFox.Helpers.PrefsHelper;
-import com.jeremyfox.TweetFox.Interfaces.RegisterCallback;
-import com.jeremyfox.TweetFox.Interfaces.RequestTokenCallback;
-import com.jeremyfox.TweetFox.Interfaces.TweetsRequestCallback;
-import twitter4j.Paging;
-import twitter4j.Twitter;
-import twitter4j.TwitterException;
-import twitter4j.TwitterFactory;
+import com.jeremyfox.TweetFox.Interfaces.*;
+import org.json.JSONException;
+import org.json.JSONObject;
+import twitter4j.*;
 import twitter4j.auth.AccessToken;
 import twitter4j.auth.RequestToken;
 
@@ -93,13 +91,45 @@ public class TwitterManager {
     }
 
     public void getTweets(Context context, TweetsRequestCallback callback) {
-        Twitter tw = getTwitter();
-        tw.setOAuthAccessToken(new AccessToken(token, tokenSecret));
+        Twitter tw = getSignedTwitter();
         if (NetworkManager.isConnected(context)) {
-            new TweetsAsyncTask().execute(tw, callback);
+            new TweetsAsyncTask().execute(tw, callback, Integer.valueOf(20));
         } else {
             callback.onFailure(NetworkManager.FAILURE_UNKNOWN_STATUS);
         }
+    }
+
+    public void getLatestTweet(Context context, TweetsRequestCallback callback) {
+        Twitter tw = getSignedTwitter();
+        if (NetworkManager.isConnected(context)) {
+            new TweetsAsyncTask().execute(tw, callback, Integer.valueOf(1));
+        } else {
+            callback.onFailure(NetworkManager.FAILURE_UNKNOWN_STATUS);
+        }
+    }
+
+    public void getUsername(Context context, Status status, UsernameCallback callback) {
+        Twitter tw = getSignedTwitter();
+        if (NetworkManager.isConnected(context)) {
+            new UsernameAsyncTask().execute(tw, status, callback);
+        } else {
+            callback.onFailure(NetworkManager.FAILURE_UNKNOWN_STATUS);
+        }
+    }
+
+    public void publishTweet(String tweet, NetworkCallback callback) {
+        if (null != tweet && tweet.length() > 0) {
+            Twitter tw = getSignedTwitter();
+            new PublishTweetAsynTask().execute(tw, tweet, callback);
+        } else {
+            callback.onFailure(NetworkManager.FAILURE_UNKNOWN_STATUS);
+        }
+    }
+
+    public Twitter getSignedTwitter() {
+        Twitter tw = getTwitter();
+        tw.setOAuthAccessToken(new AccessToken(token, tokenSecret));
+        return tw;
     }
 
     public Twitter getTwitter() {
@@ -127,6 +157,74 @@ public class TwitterManager {
     }
 }
 
+class PublishTweetAsynTask extends AsyncTask<Object, Integer, JSONObject> {
+
+    private NetworkCallback callback;
+
+    @Override
+    protected JSONObject doInBackground(Object... params) {
+        Twitter tw = (Twitter)params[0];
+        String tweet = (String)params[1];
+        this.callback = (NetworkCallback)params[2];
+
+        JSONObject jsonObject = null;
+        try {
+            twitter4j.Status status = tw.updateStatus(tweet);
+            if (null != status) {
+                jsonObject = new JSONObject("{\"posted\": 1}");
+            }
+        } catch (TwitterException e) {
+            e.printStackTrace();
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
+        return jsonObject;
+    }
+
+    @Override
+    protected void onPostExecute(JSONObject jsonObject) {
+        if (null != jsonObject) {
+            this.callback.onSuccess(jsonObject);
+        } else {
+            this.callback.onFailure(NetworkManager.FAILURE_UNKNOWN_STATUS);
+        }
+    }
+}
+
+class UsernameAsyncTask extends AsyncTask<Object, Integer, String> {
+
+    private UsernameCallback callback;
+
+    @Override
+    protected String doInBackground(Object... params) {
+        Twitter tw = (Twitter)params[0];
+        twitter4j.Status status = (twitter4j.Status)params[1];
+        this.callback = (UsernameCallback)params[2];
+        String username = null;
+        try {
+            if (null != status) {
+                username = status.getUser().getScreenName();
+            } else if(null != tw) {
+                username = tw.getScreenName();
+            }
+
+        } catch (TwitterException e) {
+            e.printStackTrace();
+        }
+        return username;
+    }
+
+    @Override
+    protected void onPostExecute(String username) {
+        if (null != username) {
+            this.callback.onSuccess(username);
+        } else {
+            this.callback.onFailure(NetworkManager.FAILURE_UNKNOWN_STATUS);
+        }
+    }
+}
+
 class TweetsAsyncTask extends AsyncTask<Object, Integer, List<twitter4j.Status>> {
 
     private TweetsRequestCallback callback;
@@ -135,10 +233,11 @@ class TweetsAsyncTask extends AsyncTask<Object, Integer, List<twitter4j.Status>>
     protected List<twitter4j.Status> doInBackground(Object... params) {
         Twitter tw = (Twitter)params[0];
         this.callback = (TweetsRequestCallback)params[1];
+        Integer count = (Integer)params[2];
         List<twitter4j.Status> tweets = null;
         if (null != tw && null != this.callback) {
             try {
-                tweets = tw.getHomeTimeline(new Paging(1, 20));
+                tweets = tw.getHomeTimeline(new Paging(1, count.intValue()));
             } catch (TwitterException e) {
                 e.printStackTrace();
             }

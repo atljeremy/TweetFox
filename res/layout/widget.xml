@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/widget_container"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:layout_margin="4dp"
+              android:background="@drawable/widget_bg">
+
+    <TextView android:layout_height="wrap_content"
+              android:textAppearance="?android:attr/textAppearanceSmall"
+              android:layout_width="wrap_content"
+              android:text="Newest Tweet"/>
+
+    <TextView android:id="@+id/widget_username"
+              android:layout_height="wrap_content"
+              android:textAppearance="?android:attr/textAppearanceLarge"
+              android:layout_width="wrap_content"
+              android:text="Username"/>
+
+    <TextView android:id="@+id/widget_tweet"
+              android:layout_height="wrap_content"
+              android:textAppearance="?android:attr/textAppearanceMedium"
+              android:layout_width="wrap_content"
+              android:text="Tweet..."/>
+
+</LinearLayout>
