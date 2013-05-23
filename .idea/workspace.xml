@@ -29,26 +29,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ed0b18e-4de6-47af-bc3c-21ccae5824ea" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/jeremyfox/TweetFox/Activities/MyAccountActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/jeremyfox/TweetFox/Dialogs/NewTweetDialog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/jeremyfox/TweetFox/Widgets/TweetFoxWidget.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/jeremyfox/TweetFox/Interfaces/TwitterUser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/jeremyfox/TweetFox/CustomClasses/TwitterUserAccount.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/jeremyfox/TweetFox/Interfaces/UserInfoCallback.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/jeremyfox/TweetFox/Interfaces/UsernameCallback.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/xml/appwidget_info.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/myaccount.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/menu/tweets_list_menu.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/widget.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/widget_bg.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jeremyfox/TweetFox/Helpers/PrefsHelper.java" afterPath="$PROJECT_DIR$/src/com/jeremyfox/TweetFox/Helpers/PrefsHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jeremyfox/TweetFox/Activities/TweetListActivity.java" afterPath="$PROJECT_DIR$/src/com/jeremyfox/TweetFox/Activities/TweetListActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jeremyfox/TweetFox/Adapters/TweetListAdapter.java" afterPath="$PROJECT_DIR$/src/com/jeremyfox/TweetFox/Adapters/TweetListAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jeremyfox/TweetFox/Interfaces/TweetsRequestCallback.java" afterPath="$PROJECT_DIR$/src/com/jeremyfox/TweetFox/Interfaces/TweetsRequestCallback.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jeremyfox/TweetFox/Managers/TwitterManager.java" afterPath="$PROJECT_DIR$/src/com/jeremyfox/TweetFox/Managers/TwitterManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jeremyfox/TweetFox/Widgets/TweetFoxWidget.java" afterPath="$PROJECT_DIR$/src/com/jeremyfox/TweetFox/Widgets/TweetFoxWidget.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TweetFox.iws" />
@@ -68,7 +49,7 @@
     <file path="/AnimatedLinearLayout.java" changelist="3ed0b18e-4de6-47af-bc3c-21ccae5824ea" time="1369000536206" ignored="false" />
     <file path="/fadein.xml" changelist="3ed0b18e-4de6-47af-bc3c-21ccae5824ea" time="1369000908113" ignored="false" />
     <file path="/TweetList.java" changelist="3ed0b18e-4de6-47af-bc3c-21ccae5824ea" time="1369004244816" ignored="false" />
-    <file path="/Dummy.txt" changelist="3ed0b18e-4de6-47af-bc3c-21ccae5824ea" time="1369185536624" ignored="false" />
+    <file path="/Dummy.txt" changelist="3ed0b18e-4de6-47af-bc3c-21ccae5824ea" time="1369312006056" ignored="false" />
     <file path="/tweet_list_item.xml" changelist="3ed0b18e-4de6-47af-bc3c-21ccae5824ea" time="1369006776198" ignored="false" />
     <file path="/tweetlist.xml" changelist="3ed0b18e-4de6-47af-bc3c-21ccae5824ea" time="1369003463883" ignored="false" />
     <file path="/TweetListActivity.java" changelist="3ed0b18e-4de6-47af-bc3c-21ccae5824ea" time="1369187019729" ignored="false" />
@@ -133,8 +114,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint url="file://$PROJECT_DIR$/src/com/jeremyfox/TweetFox/Managers/NetworkManager.java" line="2" class="NetworkManager.java" package="">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
@@ -256,6 +236,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </line_breakpoints>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -269,17 +250,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/jeremyfox/TweetFox/Activities/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="81" column="34" selection-start="3038" selection-end="3038" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#onSuccess#0;class#720:1510" expanded="true" />
-                <element signature="method#onFailure#0;class#720:1510" expanded="true" />
-                <element signature="method#onSuccess#0;class#1896:2913" expanded="true" />
-                <element signature="method#onPageFinished#0;class#2319:2529" expanded="true" />
-                <element signature="method#onFailure#0;class#1896:2913" expanded="true" />
-                <element signature="method#configurePINView#0;class#MainActivity#0" expanded="true" />
-                <element signature="e#4402#4937#0" expanded="true" />
-                <element signature="e#4922#4923#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -287,11 +258,10 @@
       <file leaf-file-name="TweetListActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/jeremyfox/TweetFox/Activities/TweetListActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="126" column="40" selection-start="4376" selection-end="4376" vertical-scroll-proportion="0.4112038">
+            <state line="59" column="11" selection-start="1885" selection-end="1885" vertical-scroll-proportion="0.66150177">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#onCreate#0;class#TweetListActivity#0" expanded="true" />
-                <element signature="method#getTweets#0;class#TweetListActivity#0" expanded="true" />
                 <element signature="method#onSuccess#0;class#1262:1883" expanded="true" />
                 <element signature="method#onFailure#0;class#1262:1883" expanded="true" />
                 <element signature="method#getUsername#0;class#TweetListActivity#0" expanded="true" />
@@ -299,9 +269,9 @@
                 <element signature="method#onFailure#0;class#1992:2298" expanded="true" />
                 <element signature="method#onCreateOptionsMenu#0;class#TweetListActivity#0" expanded="true" />
                 <element signature="method#onOptionsItemSelected#0;class#TweetListActivity#0" expanded="true" />
-                <element signature="e#3469#4773#0" expanded="true" />
+                <element signature="method#newTweet#0;class#TweetListActivity#0" expanded="true" />
+                <element signature="method#onSuccess#0;class#4045:4729" expanded="true" />
                 <element signature="method#onFailure#0;class#4045:4729" expanded="true" />
-                <element signature="e#4762#4763#0" expanded="true" />
                 <element signature="method#setupListView#0;class#TweetListActivity#0" expanded="true" />
               </folding>
             </state>
@@ -312,10 +282,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/jeremyfox/TweetFox/Dialogs/NewTweetDialog.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="34" column="38" selection-start="1329" selection-end="1329" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#showDialog#0;class#NewTweetDialog#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -324,15 +291,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/jeremyfox/TweetFox/Activities/MyAccountActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="77" column="27" selection-start="2485" selection-end="2485" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#onCreate#0;class#MyAccountActivity#0" expanded="true" />
-                <element signature="method#onSuccess#0;class#1675:2122" expanded="true" />
-                <element signature="method#onFailure#0;class#1675:2122" expanded="true" />
-                <element signature="method#onOptionsItemSelected#0;class#MyAccountActivity#0" expanded="true" />
-                <element signature="method#doInBackground#0;class#UserInfoAsyncTask#0" expanded="true" />
-                <element signature="method#onPostExecute#0;class#UserInfoAsyncTask#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -340,13 +299,11 @@
       <file leaf-file-name="TweetFoxWidget.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jeremyfox/TweetFox/Widgets/TweetFoxWidget.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="13" selection-start="2100" selection-end="2100" vertical-scroll-proportion="0.0">
+            <state line="57" column="60" selection-start="2426" selection-end="2426" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#onSuccess#0;class#2478:2838" expanded="true" />
-                <element signature="method#onFailure#0;class#2478:2838" expanded="true" />
-                <element signature="method#onSuccess#0;class#2899:3325" expanded="true" />
-                <element signature="method#onFailure#0;class#2899:3325" expanded="true" />
+                <element signature="method#onSuccess#0;class#2488:2816" expanded="true" />
+                <element signature="method#onFailure#0;class#2488:2816" expanded="true" />
+                <element signature="method#onSuccess#0;class#2863:3289" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -364,30 +321,10 @@
       <file leaf-file-name="TwitterManager.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jeremyfox/TweetFox/Managers/TwitterManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="119" column="16" selection-start="4128" selection-end="4128" vertical-scroll-proportion="0.0">
+            <state line="194" column="6" selection-start="6094" selection-end="6094" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#getInstance#0;class#TwitterManager#0" expanded="true" />
-                <element signature="method#TwitterManager#0;class#TwitterManager#0" expanded="true" />
-                <element signature="method#getOAuthRequestToken#0;class#TwitterManager#0" expanded="true" />
-                <element signature="method#registerUser#0;class#TwitterManager#0" expanded="true" />
-                <element signature="method#storeAccessToken#0;class#TwitterManager#0" expanded="true" />
-                <element signature="method#hasExistingAccessToken#0;class#TwitterManager#0" expanded="true" />
-                <element signature="method#getTweets#0;class#TwitterManager#0" expanded="true" />
-                <element signature="method#getLatestTweet#0;class#TwitterManager#0" expanded="true" />
                 <element signature="method#getUsername#0;class#TwitterManager#0" expanded="true" />
-                <element signature="method#publishTweet#0;class#TwitterManager#0" expanded="true" />
-                <element signature="method#getSignedTwitter#0;class#TwitterManager#0" expanded="true" />
-                <element signature="method#doInBackground#0;class#PublishTweetAsynTask#0" expanded="true" />
-                <element signature="method#onPostExecute#0;class#PublishTweetAsynTask#0" expanded="true" />
                 <element signature="method#doInBackground#0;class#UsernameAsyncTask#0" expanded="true" />
-                <element signature="method#onPostExecute#0;class#UsernameAsyncTask#0" expanded="true" />
-                <element signature="method#doInBackground#0;class#TweetsAsyncTask#0" expanded="true" />
-                <element signature="method#onPostExecute#0;class#TweetsAsyncTask#0" expanded="true" />
-                <element signature="method#doInBackground#0;class#RequestTokenAsyncTask#0" expanded="true" />
-                <element signature="method#onPostExecute#0;class#RequestTokenAsyncTask#0" expanded="true" />
-                <element signature="method#doInBackground#0;class#RegisterAsyncTask#0" expanded="true" />
-                <element signature="method#onPostExecute#0;class#RegisterAsyncTask#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -432,10 +369,10 @@
         <option value="$PROJECT_DIR$/src/com/jeremyfox/TweetFox/Interfaces/UsernameCallback.java" />
         <option value="$PROJECT_DIR$/res/xml/appwidget_info.xml" />
         <option value="$PROJECT_DIR$/src/com/jeremyfox/TweetFox/Helpers/PrefsHelper.java" />
-        <option value="$PROJECT_DIR$/src/com/jeremyfox/TweetFox/Widgets/TweetFoxWidget.java" />
         <option value="$PROJECT_DIR$/src/com/jeremyfox/TweetFox/Dialogs/NewTweetDialog.java" />
         <option value="$PROJECT_DIR$/src/com/jeremyfox/TweetFox/Managers/TwitterManager.java" />
         <option value="$PROJECT_DIR$/src/com/jeremyfox/TweetFox/Activities/TweetListActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/jeremyfox/TweetFox/Widgets/TweetFoxWidget.java" />
       </list>
     </option>
   </component>
@@ -473,7 +410,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -578,6 +514,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -600,8 +537,8 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager" selected="Android Application.TweetFox">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -636,19 +573,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -675,6 +599,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -765,42 +702,42 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="2560" height="1414" extended-state="6" />
+    <frame x="0" y="22" width="2560" height="1414" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975337" sideWeight="0.67001545" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32999197" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32999197" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13762927" sideWeight="0.67001545" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Jenkins" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998455" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975337" sideWeight="0.67001545" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975337" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998455" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Heroku" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Jenkins" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32998455" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Heroku" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3995363" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998455" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32998455" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998455" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294753" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975337" sideWeight="0.67001545" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975337" sideWeight="0.67001545" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975337" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998455" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -871,27 +808,13 @@
     <entry file="file://$PROJECT_DIR$/src/com/jeremyfox/TweetFox/Activities/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="81" column="34" selection-start="3038" selection-end="3038" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#onSuccess#0;class#720:1510" expanded="true" />
-            <element signature="method#onFailure#0;class#720:1510" expanded="true" />
-            <element signature="method#onSuccess#0;class#1896:2913" expanded="true" />
-            <element signature="method#onPageFinished#0;class#2319:2529" expanded="true" />
-            <element signature="method#onFailure#0;class#1896:2913" expanded="true" />
-            <element signature="method#configurePINView#0;class#MainActivity#0" expanded="true" />
-            <element signature="e#4402#4937#0" expanded="true" />
-            <element signature="e#4922#4923#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/libs/twitter4j-core-3.0.3.jar!/twitter4j/Paging.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="11" selection-start="1707" selection-end="1707" vertical-scroll-proportion="0.34275183">
-          <folding>
-            <element signature="method#Paging#3;class#Paging#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="37" column="11" selection-start="1707" selection-end="1707" vertical-scroll-proportion="0.34275183" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jeremyfox/TweetFox/Interfaces/NetworkCallback.java">
@@ -902,20 +825,16 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/widget.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="48" selection-start="160" selection-end="160" vertical-scroll-proportion="-0.7307692">
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="android-designer">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="48" selection-start="160" selection-end="160" vertical-scroll-proportion="-0.7307692" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/xml/appwidget_info.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="50" selection-start="258" selection-end="258" vertical-scroll-proportion="0.093366094">
-          <folding />
-        </state>
+        <state line="4" column="50" selection-start="258" selection-end="258" vertical-scroll-proportion="0.093366094" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jeremyfox/TweetFox/Helpers/PrefsHelper.java">
@@ -934,9 +853,7 @@
     </entry>
     <entry file="jar://$USER_HOME$/Documents/android-sdk-mac_x86/platforms/android-16/android.jar!/android/os/AsyncTask.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="23" selection-start="1862" selection-end="1862" vertical-scroll-proportion="0.6603099">
-          <folding />
-        </state>
+        <state line="42" column="23" selection-start="1862" selection-end="1862" vertical-scroll-proportion="0.6603099" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jeremyfox/TweetFox/CustomClasses/TwitterUserAccount.java">
@@ -949,94 +866,54 @@
     <entry file="file://$PROJECT_DIR$/src/com/jeremyfox/TweetFox/Activities/MyAccountActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="77" column="27" selection-start="2485" selection-end="2485" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#onCreate#0;class#MyAccountActivity#0" expanded="true" />
-            <element signature="method#onSuccess#0;class#1675:2122" expanded="true" />
-            <element signature="method#onFailure#0;class#1675:2122" expanded="true" />
-            <element signature="method#onOptionsItemSelected#0;class#MyAccountActivity#0" expanded="true" />
-            <element signature="method#doInBackground#0;class#UserInfoAsyncTask#0" expanded="true" />
-            <element signature="method#onPostExecute#0;class#UserInfoAsyncTask#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jeremyfox/TweetFox/Widgets/TweetFoxWidget.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="13" selection-start="2100" selection-end="2100" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#onSuccess#0;class#2478:2838" expanded="true" />
-            <element signature="method#onFailure#0;class#2478:2838" expanded="true" />
-            <element signature="method#onSuccess#0;class#2899:3325" expanded="true" />
-            <element signature="method#onFailure#0;class#2899:3325" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/menu/tweets_list_menu.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="22" selection-start="396" selection-end="396" vertical-scroll-proportion="0.23341523">
-          <folding />
+        <state line="10" column="22" selection-start="396" selection-end="396" vertical-scroll-proportion="0.23341523" />
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Documents/android-sdk-mac_x86/platforms/android-16/android.jar!/org/json/JSONObject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="11" selection-start="223" selection-end="223" vertical-scroll-proportion="0.18116806" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jeremyfox/TweetFox/Managers/TwitterManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="194" column="6" selection-start="6094" selection-end="6094" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="method#getUsername#0;class#TwitterManager#0" expanded="true" />
+            <element signature="method#doInBackground#0;class#UsernameAsyncTask#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jeremyfox/TweetFox/Dialogs/NewTweetDialog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="38" selection-start="1329" selection-end="1329" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#showDialog#0;class#NewTweetDialog#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/Documents/android-sdk-mac_x86/platforms/android-16/android.jar!/org/json/JSONObject.class">
+    <entry file="file://$PROJECT_DIR$/src/com/jeremyfox/TweetFox/Widgets/TweetFoxWidget.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="11" selection-start="223" selection-end="223" vertical-scroll-proportion="0.18116806">
+        <state line="57" column="60" selection-start="2426" selection-end="2426" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="method#JSONObject#0;class#JSONObject#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jeremyfox/TweetFox/Managers/TwitterManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="16" selection-start="4128" selection-end="4128" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#getInstance#0;class#TwitterManager#0" expanded="true" />
-            <element signature="method#TwitterManager#0;class#TwitterManager#0" expanded="true" />
-            <element signature="method#getOAuthRequestToken#0;class#TwitterManager#0" expanded="true" />
-            <element signature="method#registerUser#0;class#TwitterManager#0" expanded="true" />
-            <element signature="method#storeAccessToken#0;class#TwitterManager#0" expanded="true" />
-            <element signature="method#hasExistingAccessToken#0;class#TwitterManager#0" expanded="true" />
-            <element signature="method#getTweets#0;class#TwitterManager#0" expanded="true" />
-            <element signature="method#getLatestTweet#0;class#TwitterManager#0" expanded="true" />
-            <element signature="method#getUsername#0;class#TwitterManager#0" expanded="true" />
-            <element signature="method#publishTweet#0;class#TwitterManager#0" expanded="true" />
-            <element signature="method#getSignedTwitter#0;class#TwitterManager#0" expanded="true" />
-            <element signature="method#doInBackground#0;class#PublishTweetAsynTask#0" expanded="true" />
-            <element signature="method#onPostExecute#0;class#PublishTweetAsynTask#0" expanded="true" />
-            <element signature="method#doInBackground#0;class#UsernameAsyncTask#0" expanded="true" />
-            <element signature="method#onPostExecute#0;class#UsernameAsyncTask#0" expanded="true" />
-            <element signature="method#doInBackground#0;class#TweetsAsyncTask#0" expanded="true" />
-            <element signature="method#onPostExecute#0;class#TweetsAsyncTask#0" expanded="true" />
-            <element signature="method#doInBackground#0;class#RequestTokenAsyncTask#0" expanded="true" />
-            <element signature="method#onPostExecute#0;class#RequestTokenAsyncTask#0" expanded="true" />
-            <element signature="method#doInBackground#0;class#RegisterAsyncTask#0" expanded="true" />
-            <element signature="method#onPostExecute#0;class#RegisterAsyncTask#0" expanded="true" />
+            <element signature="method#onSuccess#0;class#2488:2816" expanded="true" />
+            <element signature="method#onFailure#0;class#2488:2816" expanded="true" />
+            <element signature="method#onSuccess#0;class#2863:3289" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jeremyfox/TweetFox/Activities/TweetListActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="126" column="40" selection-start="4376" selection-end="4376" vertical-scroll-proportion="0.4112038">
+        <state line="59" column="11" selection-start="1885" selection-end="1885" vertical-scroll-proportion="0.66150177">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#onCreate#0;class#TweetListActivity#0" expanded="true" />
-            <element signature="method#getTweets#0;class#TweetListActivity#0" expanded="true" />
             <element signature="method#onSuccess#0;class#1262:1883" expanded="true" />
             <element signature="method#onFailure#0;class#1262:1883" expanded="true" />
             <element signature="method#getUsername#0;class#TweetListActivity#0" expanded="true" />
@@ -1044,9 +921,9 @@
             <element signature="method#onFailure#0;class#1992:2298" expanded="true" />
             <element signature="method#onCreateOptionsMenu#0;class#TweetListActivity#0" expanded="true" />
             <element signature="method#onOptionsItemSelected#0;class#TweetListActivity#0" expanded="true" />
-            <element signature="e#3469#4773#0" expanded="true" />
+            <element signature="method#newTweet#0;class#TweetListActivity#0" expanded="true" />
+            <element signature="method#onSuccess#0;class#4045:4729" expanded="true" />
             <element signature="method#onFailure#0;class#4045:4729" expanded="true" />
-            <element signature="e#4762#4763#0" expanded="true" />
             <element signature="method#setupListView#0;class#TweetListActivity#0" expanded="true" />
           </folding>
         </state>

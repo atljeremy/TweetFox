@@ -56,19 +56,19 @@ public class TweetFoxWidget extends AppWidgetProvider {
             } else {
                 views.setTextViewText(R.id.widget_username, "Loading...");
                 Log.d("TweetFoxWidget", "username == null");
-
-                tm.getUsername(context, null, new UsernameCallback() {
-                    @Override
-                    public void onSuccess(String username) {
-                        PrefsHelper.setPref(finalContext, PrefsHelper.USERNAME_KEY, username);
-                    }
-
-                    @Override
-                    public void onFailure(int statusCode) {
-
-                    }
-                });
             }
+
+            tm.getUsername(context, null, new UsernameCallback() {
+                @Override
+                public void onSuccess(String username) {
+                    PrefsHelper.setPref(finalContext, PrefsHelper.USERNAME_KEY, username);
+                }
+
+                @Override
+                public void onFailure(int statusCode) {
+
+                }
+            });
 
             tm.getLatestTweet(context, new TweetsRequestCallback() {
                 @Override
