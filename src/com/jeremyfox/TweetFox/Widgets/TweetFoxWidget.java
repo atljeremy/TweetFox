@@ -37,7 +37,7 @@ public class TweetFoxWidget extends AppWidgetProvider {
             PendingIntent pendingIntent = PendingIntent.getActivity(context, 0, intent, 0);
             RemoteViews views = new RemoteViews(context.getPackageName(), R.layout.widget);
             views.setOnClickPendingIntent(R.id.widget_container, pendingIntent);
-            TwitterManager tm = TwitterManager.getInstance(context);
+            final TwitterManager tm = TwitterManager.getInstance(context);
 
             String latestTweet = PrefsHelper.getPref(context, PrefsHelper.LATEST_TWEET_KEY);
             String username = PrefsHelper.getPref(context, PrefsHelper.USERNAME_KEY);
@@ -58,30 +58,25 @@ public class TweetFoxWidget extends AppWidgetProvider {
                 Log.d("TweetFoxWidget", "username == null");
             }
 
-            tm.getUsername(context, null, new UsernameCallback() {
-                @Override
-                public void onSuccess(String username) {
-                    PrefsHelper.setPref(finalContext, PrefsHelper.USERNAME_KEY, username);
-                }
-
-                @Override
-                public void onFailure(int statusCode) {
-
-                }
-            });
-
             tm.getLatestTweet(context, new TweetsRequestCallback() {
                 @Override
                 public void onSuccess(List<Status> tweets) {
                     for (Status status : tweets) {
                         PrefsHelper.setPref(finalContext, PrefsHelper.LATEST_TWEET_KEY, status.getText());
+                        tm.getUsername(finalContext, status, new UsernameCallback() {
+                            @Override
+                            public void onSuccess(String username) {
+                                PrefsHelper.setPref(finalContext, PrefsHelper.USERNAME_KEY, username);
+                            }
+
+                            @Override
+                            public void onFailure(int statusCode) {}
+                        });
                     }
                 }
 
                 @Override
-                public void onFailure(int statusCode) {
-
-                }
+                public void onFailure(int statusCode) {}
             });
 
             appWidgetManager.updateAppWidget(appWidgetId, views);

@@ -30,7 +30,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3ed0b18e-4de6-47af-bc3c-21ccae5824ea" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jeremyfox/TweetFox/Widgets/TweetFoxWidget.java" afterPath="$PROJECT_DIR$/src/com/jeremyfox/TweetFox/Widgets/TweetFoxWidget.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TweetFox.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -61,7 +60,7 @@
     <file path="/TwitterUser.java" changelist="3ed0b18e-4de6-47af-bc3c-21ccae5824ea" time="1369106337889" ignored="false" />
     <file path="/UserInfoCallback.java" changelist="3ed0b18e-4de6-47af-bc3c-21ccae5824ea" time="1369106489947" ignored="false" />
     <file path="/widget.xml" changelist="3ed0b18e-4de6-47af-bc3c-21ccae5824ea" time="1369142306906" ignored="false" />
-    <file path="/TweetFoxWidget.java" changelist="3ed0b18e-4de6-47af-bc3c-21ccae5824ea" time="1369185216621" ignored="false" />
+    <file path="/TweetFoxWidget.java" changelist="3ed0b18e-4de6-47af-bc3c-21ccae5824ea" time="1369340851130" ignored="false" />
     <file path="/UsernameCallback.java" changelist="3ed0b18e-4de6-47af-bc3c-21ccae5824ea" time="1369177742430" ignored="false" />
     <file path="/NewTweetDialog.java" changelist="3ed0b18e-4de6-47af-bc3c-21ccae5824ea" time="1369185886258" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -255,14 +254,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TweetListActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TweetListActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jeremyfox/TweetFox/Activities/TweetListActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="11" selection-start="1885" selection-end="1885" vertical-scroll-proportion="0.66150177">
+            <state line="48" column="38" selection-start="1438" selection-end="1438" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#onCreate#0;class#TweetListActivity#0" expanded="true" />
-                <element signature="method#onSuccess#0;class#1262:1883" expanded="true" />
                 <element signature="method#onFailure#0;class#1262:1883" expanded="true" />
                 <element signature="method#getUsername#0;class#TweetListActivity#0" expanded="true" />
                 <element signature="method#onSuccess#0;class#1992:2298" expanded="true" />
@@ -296,14 +294,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TweetFoxWidget.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="TweetFoxWidget.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/jeremyfox/TweetFox/Widgets/TweetFoxWidget.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="60" selection-start="2426" selection-end="2426" vertical-scroll-proportion="0.0">
+            <state line="78" column="56" selection-start="3347" selection-end="3347" vertical-scroll-proportion="0.8188319">
               <folding>
-                <element signature="method#onSuccess#0;class#2488:2816" expanded="true" />
-                <element signature="method#onFailure#0;class#2488:2816" expanded="true" />
-                <element signature="method#onSuccess#0;class#2863:3289" expanded="true" />
+                <element signature="method#onSuccess#0;class#2491:3361" expanded="true" />
+                <element signature="method#onSuccess#0;class#2827:3221" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -314,18 +311,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state line="7" column="30" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TwitterManager.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jeremyfox/TweetFox/Managers/TwitterManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="194" column="6" selection-start="6094" selection-end="6094" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="method#getUsername#0;class#TwitterManager#0" expanded="true" />
-                <element signature="method#doInBackground#0;class#UsernameAsyncTask#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -465,28 +450,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="TweetFox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TweetFox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TweetFox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TweetFox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Interfaces" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -837,13 +800,6 @@
         <state line="4" column="50" selection-start="258" selection-end="258" vertical-scroll-proportion="0.093366094" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jeremyfox/TweetFox/Helpers/PrefsHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="30" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jeremyfox/TweetFox/Interfaces/UsernameCallback.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="17" selection-start="150" selection-end="150" vertical-scroll-proportion="0.18116806">
@@ -880,12 +836,22 @@
         <state line="9" column="11" selection-start="223" selection-end="223" vertical-scroll-proportion="0.18116806" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jeremyfox/TweetFox/Managers/TwitterManager.java">
+    <entry file="file://$PROJECT_DIR$/src/com/jeremyfox/TweetFox/Activities/TweetListActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="194" column="6" selection-start="6094" selection-end="6094" vertical-scroll-proportion="0.0">
+        <state line="48" column="38" selection-start="1438" selection-end="1438" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="method#getUsername#0;class#TwitterManager#0" expanded="true" />
-            <element signature="method#doInBackground#0;class#UsernameAsyncTask#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="method#onCreate#0;class#TweetListActivity#0" expanded="true" />
+            <element signature="method#onFailure#0;class#1262:1883" expanded="true" />
+            <element signature="method#getUsername#0;class#TweetListActivity#0" expanded="true" />
+            <element signature="method#onSuccess#0;class#1992:2298" expanded="true" />
+            <element signature="method#onFailure#0;class#1992:2298" expanded="true" />
+            <element signature="method#onCreateOptionsMenu#0;class#TweetListActivity#0" expanded="true" />
+            <element signature="method#onOptionsItemSelected#0;class#TweetListActivity#0" expanded="true" />
+            <element signature="method#newTweet#0;class#TweetListActivity#0" expanded="true" />
+            <element signature="method#onSuccess#0;class#4045:4729" expanded="true" />
+            <element signature="method#onFailure#0;class#4045:4729" expanded="true" />
+            <element signature="method#setupListView#0;class#TweetListActivity#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -897,34 +863,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jeremyfox/TweetFox/Widgets/TweetFoxWidget.java">
+    <entry file="file://$PROJECT_DIR$/src/com/jeremyfox/TweetFox/Managers/TwitterManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="60" selection-start="2426" selection-end="2426" vertical-scroll-proportion="0.0">
+        <state line="115" column="70" selection-start="4094" selection-end="4094" vertical-scroll-proportion="0.44576877">
           <folding>
-            <element signature="method#onSuccess#0;class#2488:2816" expanded="true" />
-            <element signature="method#onFailure#0;class#2488:2816" expanded="true" />
-            <element signature="method#onSuccess#0;class#2863:3289" expanded="true" />
+            <element signature="method#doInBackground#0;class#UsernameAsyncTask#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jeremyfox/TweetFox/Activities/TweetListActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/com/jeremyfox/TweetFox/Helpers/PrefsHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="11" selection-start="1885" selection-end="1885" vertical-scroll-proportion="0.66150177">
+        <state line="7" column="30" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jeremyfox/TweetFox/Widgets/TweetFoxWidget.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="56" selection-start="3347" selection-end="3347" vertical-scroll-proportion="0.8188319">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#onCreate#0;class#TweetListActivity#0" expanded="true" />
-            <element signature="method#onSuccess#0;class#1262:1883" expanded="true" />
-            <element signature="method#onFailure#0;class#1262:1883" expanded="true" />
-            <element signature="method#getUsername#0;class#TweetListActivity#0" expanded="true" />
-            <element signature="method#onSuccess#0;class#1992:2298" expanded="true" />
-            <element signature="method#onFailure#0;class#1992:2298" expanded="true" />
-            <element signature="method#onCreateOptionsMenu#0;class#TweetListActivity#0" expanded="true" />
-            <element signature="method#onOptionsItemSelected#0;class#TweetListActivity#0" expanded="true" />
-            <element signature="method#newTweet#0;class#TweetListActivity#0" expanded="true" />
-            <element signature="method#onSuccess#0;class#4045:4729" expanded="true" />
-            <element signature="method#onFailure#0;class#4045:4729" expanded="true" />
-            <element signature="method#setupListView#0;class#TweetListActivity#0" expanded="true" />
+            <element signature="method#onSuccess#0;class#2491:3361" expanded="true" />
+            <element signature="method#onSuccess#0;class#2827:3221" expanded="true" />
           </folding>
         </state>
       </provider>
